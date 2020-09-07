@@ -1,0 +1,105 @@
+<!--
+1. Set a file system css, js,fonts, icons,assets
+2. Create style.css file in css.and until index (inside index.html) head tag
+3. Add bootstap componens to both css and js file and then write the path for both in index.html
+4. Add jquery in js file  (3.5.1 in this one).
+5. Add fonts in the fonts folder
+6. Add fontawesome in the icons folder (after downloading from web)
+7. Add all.min.css file from downloaded fontawesome folder (downloaded)
+8. Go to webfonts folder(fa) and copy every thing and paste in icons folder
+9. Go to all.min.css and replace webfonts with icon.
+10. Nav bar creation
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sevak Company</title>
+
+  <!--Bootstrap CSS file-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!--fontawesome icons-->
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <!-- fonts link-->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <!--Custom CSS file-->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<!-- Add the basics mentioned above initially-->
+
+<body>
+  <div class="load-page container-detail">
+    <div style="height: 100%;">
+      <div class="homePagedsk">
+        <header class="navDetails navDcustom">
+          <div class="flex-pos">
+            <div class="navbars left">
+              <a href="#" class="logoCalling" style="padding-top:5px; padding-left: 15px;">
+                <img src="./assets/rsz_sevaklogo.png" alt="Sevak">
+                <span> | Sevak Company </span>
+                <p style="text-decoration: none;
+                color:#ffffff; font-size: 12px;">Vocal for Local</p>
+              </a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="headerNav-Items right">
+              <ul class="nav-Items">
+                <li class="navRight">
+                  <a href="#">Our Blog</a>
+                </li>
+                <li class="navRight"> <a href="#"><span>Join our Team</span></a></li>
+                <li class="navRight"> <a href="#">Login / Signup</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div class="clearfix"></div>
+
+        <div class="bgImg" style="background: url(./assets/SC_img/bgTherapy.jpg); min-width: 100%; background-repeat: no-repeat; background-size: cover;">
+          <div class="content container">
+            <!--
+              1. BreadCrumb (not it..since only one location)
+              2. Tag line - Vocal for Local
+              3. Search bar - hint - search for a service.
+              4. Login
+              5. Cards for services
+              5. Blog page - Intro
+              6. Join our Team page.
+            -->
+             <div class="tagLine" style="width: 100%; height: auto;">
+               <h1>On Demand services <span style="opacity: 0.7; color: #ff0909;">@</span>  Home.</h1>
+             </div>
+           </div>
+
+           <div class="searchBar">
+            <form class="searchForm" action="#"> 
+              <input class="searchInp"  type="text" placeholder=" Sevak search..." name="search"><button class="searchBtn" style="margin: 0; padding: 0; border:none; background: #000000;"><i class="fa fa-search"
+                      style="font-size: 20px;color: #ff0000; padding-right: 15px;">
+                  </i> 
+              </button>
+          </form>
+           </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="loginFunction" style="z-index: 9999; height: 1500px;">
+    <div class="loginTemplate">
+      <div class="loginForm" style="margin-top: 100px;">
+        sfkfsngddskj
+      </div>
+    </div>
+  </div>
+
+</body>
