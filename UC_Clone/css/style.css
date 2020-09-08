@@ -6,7 +6,7 @@
 
 body{
     background: transparent;
-    background-color: #ff0000;
+    background-color: #000000;
     margin: 0px;
     padding: 0px;
     font-family: 'Nunito Sans', sans-serif;
@@ -15,7 +15,6 @@ body{
 }
 
 html{
-    
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -37,7 +36,7 @@ html{
 }
 
 .load-page{
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -191,7 +190,7 @@ html{
 
 input[type=text] {
     width:400px; 
-    height:55px;
+    height:50px;
     border-radius:10px 0 0 10px;
     border: none;
     background-color: #000000;margin: 0;
@@ -199,7 +198,7 @@ input[type=text] {
 }
 
 .searchBar .searchBtn{
-    height: 55px;
+    height: 50px;
     border-radius: 0 10px 10px 0;
     border: none;
     cursor: pointer;
@@ -210,4 +209,114 @@ input[type=text] {
 
 
 
+/* -----------------Card Design -------------------------------*/
+
+.featureCard{
+    margin-top: 60px;
+    padding: 5px;
+    background: #000000;
+    position: absolute;
+    top: 73%;
+    left: 8%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.featureCard{
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transition: 0.8s;
+    
+}
+
+.cardDesign{
+    word-wrap: none;
+    word-spacing: 1.5px;
+    
+}
+
+.row{
+    max-width: 100%;
+}
+
+.r1{
+        height: 100px;
+        margin-top: 20px;
+}
+
+.r2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card{
+    background: #000000;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    left: 20px;
+    color: red;
+    
+}
+
+.card:hover{
+    box-shadow: 2px 1px 5px rgba(255, 255, 255, 0.8); 
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.card object{
+    padding: 5px;
+    margin: 5px;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.card h5{
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 10px!important;
+    font-weight: 700;
+    letter-spacing: 1px;  
+}
+
+/* Card Over here */
+
+/* Login Pop-up */
+
+.loginOnClick{
+    top: 0;
+    max-width: 300px;
+    min-height: 100%;
+    color: red;
+    background: black;
+}
+
+.loginPortal{
+    margin-top: 20px;
+}
+.heading_log{
+    height: 50px;
+    width: 400px;
+    display: flex;
+}
+
+.heading_log object{
+    max-width: 30px;
+    max-height:30px;
+    padding: 5px;
+    margin: 0px 5px;
+    border: 1px solid red;
+}
+
+.heading_log h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Nunito sans', 'sans-serif';
+    padding: 5px;
+    margin: 0px 5px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
 
